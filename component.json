@@ -1,10 +1,10 @@
 {
   "name": "password-field",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Create a password field with strength meter and confirmation field",
   "scripts": [ "index.js" ],
   "dependencies": {
     "visionmedia/debug": "*",
-    "nib-components/password-complexity": "0.0.*"
+    "nib-components/password-complexity": "0.0.1"
   }
 }
