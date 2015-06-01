@@ -1,0 +1,17 @@
+{
+  "name": "@nib-components/password-field",
+  "version": "0.0.2",
+  "description": "Create a password field with strength meter and confirmation field",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nib-components/password-field.git"
+  },
+  "dependencies": {
+    "debug": "*",
+    "@nib-components/password-complexity": "0.0.1"
+  },
+  "browser": {
+    "password-complexity": "@nib-components/password-complexity"
+  }
+}
